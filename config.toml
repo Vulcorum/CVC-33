@@ -1,0 +1,16 @@
+baseURL = 'https://vulcorum.github.io/CVC-2'
+canonifyURLs = true
+
+languageCode = 'en-us'
+title = 'CVC site'
+custom_css = ["css/styles.css"]
+header_image = "images/landscape.jpg"
+
+[params]
+featured_image = "images/landscape.jpg"
+
+[menu]
+  [[menu.main]]
+    identifier = "hugo-post"
+    name = "Hugo Post"
+    url = "/post"
